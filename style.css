@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
