@@ -1,7 +1,27 @@
 body {
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    display: flex;
     justify-content: space-between;
+}
+
+.right-links {
+    display: flex;
+    gap: 1em;
 }
 
 .header,
@@ -9,7 +29,14 @@ body {
     background-color: #1F2937;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .body {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
