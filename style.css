@@ -6,12 +6,12 @@ body {
     height: 100vw;
     display: flex;
     flex-direction: column;
-    font-family: Roboto, Arial, sans-serif;
+    font-family: Roboto, sans-serif;
     margin: 0;
 }
 
 a {
-    color: white;
+    color: #F9FAF8;
     text-decoration: none;
 }
 
@@ -23,7 +23,7 @@ a {
 .header,
 .footer {
     flex: 1;
-    padding: 0 10vw;
+    padding: 0 15vw;
 }
 
 .left-links {
@@ -32,8 +32,9 @@ a {
 
 .right-links {
     display: flex;
-    gap: 1em;
+    gap: 2em;
     list-style: none;
+    color: #E5E7EB;
 }
 
 .header,
@@ -41,7 +42,7 @@ a {
 .footer {
     background-color: #1F2937;
     align-items: center;
-    color: white;
+    color: #F9FAF8;
 }
 
 .body {
@@ -55,13 +56,28 @@ a {
 .quote,
 .call-to-action {
     display: flex;
-    padding: 0 10vw;
+    padding: 0 15vw;
+    align-items: center;
     flex: 1;
 }
 
+.hero {
+    justify-content: space-between;
+}
+
 .hero .title {
-    font-size: 2vw;
-    font-weight: bolder;
+    font-size: 3vw;
+    font-weight: 901;
+}
+
+img {
+    max-width: 30vw;
+    height: auto;
+    padding: 5vw 0;
+}
+
+.quote {
+    background-color: #E5E7EB;
 }
 
 .footer {
