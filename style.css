@@ -16,12 +16,12 @@ a {
 
 button {
     background-color: #3882F6;
-    color: white;
+    color: #F9FAF8;
     padding: 0.5em 2em;
     font-size: 1vw;
     font-weight: bold;
     border-radius: 0.5em;
-    border: #3882F6;
+    border: #F9FAF8;
 }
 
 .header {
@@ -31,8 +31,9 @@ button {
 
 .header,
 .footer {
-    flex: 1;
+    flex: 1.5;
     padding: 0 15vw;
+    align-items: center;
 }
 
 .left-links {
@@ -50,7 +51,6 @@ button {
 .hero,
 .footer {
     background-color: #1F2937;
-    align-items: center;
     color: #F9FAF8;
 }
 
@@ -121,12 +121,39 @@ button {
 .quote .text {
     font-style: italic;
     font-size: 2.25vw;
+    line-height: 1.2;
 }
 
 .quote .author {
     text-align: right;
     font-size: 1.5vw;
     font-weight: bold;
+}
+
+.call-to-action .container {
+    background-color: #3882F6;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0.5em;
+    padding: 4vw 0;
+    color: #F9FAF8;
+}
+
+.call-to-action .container .prompt {
+    display: flex;
+    flex-direction: column;
+}
+
+.prompt .title {
+    font-size: 1.5vw;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.container button {
+    border: 2px solid #F9FAF8;
 }
 
 .footer {
