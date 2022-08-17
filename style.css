@@ -10,7 +10,6 @@ body {
 }
 
 a {
-    color: #F9FAF8;
     text-decoration: none;
 }
 
@@ -22,6 +21,10 @@ button {
     font-weight: bold;
     border-radius: 0.5em;
     border: #F9FAF8;
+}
+
+li {
+    list-style: none;
 }
 
 .header {
@@ -38,12 +41,15 @@ button {
 
 .left-links {
     font-size: 1.5vw;
+    color: #F9FAF8;
 }
 
 .right-links {
     display: flex;
     gap: 2em;
-    list-style: none;
+}
+
+.right-link {
     color: #E5E7EB;
 }
 
@@ -51,7 +57,6 @@ button {
 .hero,
 .footer {
     background-color: #1F2937;
-    color: #F9FAF8;
 }
 
 .body {
@@ -77,11 +82,13 @@ button {
 .hero .title {
     font-size: 3vw;
     font-weight: bolder;
+    color: #F9FAF8;
 }
 
 .hero .subtext {
     padding: 1em 0;
     line-height: 1.6;
+    color: #E5E7EB;
 }
 
 .hero .title-pic {
@@ -92,12 +99,13 @@ button {
 
 .main {
     flex-direction: column;
-    justify-content: center;
 }
 
 .main .title {
     font-size: 2.25vw;
     font-weight: bolder;
+    padding-top: 1em;
+    color: #1F2937;
 }
 
 .main .text {
@@ -136,6 +144,7 @@ button {
     font-style: italic;
     font-size: 2.25vw;
     line-height: 1.2;
+    color: #1F2937;
 }
 
 .quote .author {
@@ -173,4 +182,5 @@ button {
 .footer {
     display: flex;
     justify-content: center;
+    color: #F9FAF8;
 }
